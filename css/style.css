@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background: url(../imgs/1.jpg);
+}
+.container{
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+    background: cornsilk;
+    border-radius:20px;
+}
+#about-me{
+    width: 100%;
+    height: 100vh;
+    border-bottom: 1px solid gray;
+}
+#my-photo{
+    width:150px;
+    height:200px;
+    border-radius: 20%;
+    margin-left: 150px;
+    margin-top: 150px;
+    display: inline-block;
+}
+#beginning{
+    display:inline;
+    position:absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+    max-width: 560px;
+}
+#about-me h1{
+    text-align: center;
+    font-size: 108px;
+    padding-top:150px;
+}
+#mainpart{
+    width:100%;
+    height: 85vh;
+    border-bottom: 1px solid gray;
+}
+#footer{
+    width: 100%;
+    height: 15vh;
+}
+#href-to-facebook{
+    position: absolute;
+    margin-left: 326.66px;
+    margin-top: 45px;
+}
+.hrefTo{
+    margin-left: 326.66px;
+    outline: none;
+    text-decoration: none;
+}
+#href-to-insta{
+    position: absolute;
+    margin-left: 653.32px;
+    border-radius:20%;
+    width: 50px;
+    height: 50px;
+    margin-top: 45px;
+}
+#bike-ico{
+    position: absolute;
+    margin-left: 250px;
+    width: 150px;
+    height: 150px;
+    margin-top: 75px;
+    display:inline-block;
+}
+#bike-text{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 130px;
+    display: inline-block;
+    font-size: 32px;
+}
+#coding-ico{
+    position: absolute;
+    margin-left: 250px;
+    width: 150px;
+    height: 150px;
+    margin-top: 275px;
+    display:inline-block;
+}
+#coding-text{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 330px;
+    display: inline-block;
+    font-size: 32px;
+}
+#film-ico{
+    position: absolute;
+    margin-top: 475px;
+    margin-left: 250px;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+#film-text{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 550px;
+    display:inline-block;
+    font-size: 32px;
+}
