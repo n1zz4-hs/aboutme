@@ -1,0 +1,48 @@
+h1 {
+    margin-left: 120px;
+  }
+  
+  h3 {
+    margin-left: 40px;
+  }
+  
+  input {
+    margin: 15px 0 0 20px;
+  }
+  
+  #private-email {
+    margin-right: 20px;
+  }
+  
+  .removing {
+    width: 310px;
+    margin-top: 10px;
+    margin-left: 53px;
+  }
+  
+  #study-desiring {
+    position: relative;
+    bottom: -7px;
+    right: -5px;
+    width: 200px;
+  }
+  
+  .years {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  #devxp {
+    position: relative;
+    bottom: -10px;
+  }
+  
+  .dexexp {
+    margin-left: 20px;
+  }
+  
+  #country {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  

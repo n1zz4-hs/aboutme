@@ -8,6 +8,68 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <h1>Profile edit page</h1>
+    <div class="form">
+        <form id="basis">
+            <h3>Basic info</h3>
+            <label for="ID">ID</label><input type="text" id="ID" value="725">
+            <br>
+            <label for="first-name">First Name</label><input type="text" id="first-name">
+            <br>
+            <label for="last-name">Last Name</label><input type="text" id="last-name">
+            <br>
+            <label for="password">Password</label><input type="password" id="password" value="12345678910">
+            <br>
+            <label for="phone">Phone</label><input type="tel" id="phone" placeholder="380">
+            <br>
+            <label for="email">Email</label><input type="email" id="email" placeholder="myemail@placeholder.com">
+            <br>
+            <input type="checkbox" id="private-email"><label for="private-email">Keep my email adress private</label>
+            <br>
+            <div class="removing">We'll remove your public profile email and use 1978331+username@users.noreply.localhost</div>
+            <br>
+            <label for="dob">DOB</label><input type="date" id="dob">
+            <br>
+            <label for="blog-url">Blog url</label><input type="url" id="blog-url" placeholder="http://">
+            <br>
+            <label for="about-me">About me</label><input type="text" id="about-me">
+            <br>
+            <label for="profile-picture">Profile picture</label><input type="file" id="profile-picture">
+    </form>
+    <form id="pro">
+        <h3>Professional info</h3>
+        <label for="study-desiring">Desire to study</label><input type="range" id="study-desiring" value="80">
+        <br>
+        <label for="exp">Experience</label><input type="number" id="exp" value="3"><div class="years">years</div>
+        <br>
+        <label id="devxp">Development Experience</label>
+        <br>
+        <input type="radio" name="devexp" class="devexp" value="learning">Learning to Program <br>
+        <input type="radio" name="devexp" class="devexp" value="junior" checked>Junior Developer <br>
+        <input type="radio" name="devexp" class="devexp" value="midle">Mid-Level Developer <br>
+        <input type="radio" name="devexp" class="devexp" value="senior">Senior Developer
+        <br>
+        <label for="country">Country</label>
+        <select id="country" form="pro">
+              <option disabled> - Choose Your Country -</option>
+              <option value="ukraine">Ukraine</option>
+              <option value="usa">USA</option>
+              <option value="thailand">Thailand</option>
+              <option value="spain">Spain</option>
+        </select>
+        <br>
+        <label for="skills">Skills</label>
+        <br>
+        <input type="checkbox" name="skills" class="skills" checked>HTML<br>
+        <input type="checkbox" name="skills" class="skills">CSS<br>
+        <input type="checkbox" name="skills" class="skills">JavaScript<br>
+        <input type="checkbox" name="skills" class="skills">R<br>
+        <input type="checkbox" name="skills" class="skills">Scala<br>
+        <input type="checkbox" name="skills" class="skills">Haskell
+        <br>
+    </form>
+    <input type="reset" value="< Cancel">
+    <input type="submit" value="Submit">
+    </div>
 </body>
 </html>
