@@ -73,3 +73,99 @@ header {
   width: 319.333px;
   height: 547.333px;
 }
+
+.features {
+  padding-bottom: 100px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.features .easy-messaging {
+  margin-left: 180px;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 35px;
+}
+
+.features .easy-messaging .messages {
+  height: 534px;
+  width: 300px;
+  z-index: 1;
+}
+
+.features .easy-messaging .conversation {
+  height: 534px;
+  width: 300px;
+  margin-top: 40px;
+  margin-left: -150px;
+  z-index: 2;
+}
+
+.features .easy-messaging .easy-mes-desc {
+  width: 400px;
+  height: 200px;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+
+.features .easy-messaging .easy-mes-desc h1 {
+  font-size: 40px;
+  color: #363636;
+}
+
+.features .easy-messaging .easy-mes-desc h1 .red-dot {
+  color: red;
+}
+
+.features .easy-messaging .easy-mes-desc p {
+  padding-top: 30px;
+  font-size: 12px;
+  line-height: 1.78;
+  color: #808080;
+}
+
+.features .keep-in-touch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.features .keep-in-touch .contacts {
+  height: 534px;
+  width: 300px;
+  margin-right: -110px;
+  margin-top: 60px;
+  z-index: 2;
+}
+
+.features .keep-in-touch .groups {
+  height: 534px;
+  width: 300px;
+  z-index: 1;
+}
+
+.features .keep-in-touch .in-touch-desc {
+  width: 400px;
+  height: 200px;
+  margin-top: 200px;
+  margin-right: 50px;
+}
+
+.features .keep-in-touch .in-touch-desc h1 {
+  font-size: 40px;
+  color: #363636;
+}
+
+.features .keep-in-touch .in-touch-desc h1 .red-dot {
+  color: red;
+}
+
+.features .keep-in-touch .in-touch-desc p {
+  padding-top: 30px;
+  font-size: 12px;
+  line-height: 1.78;
+  color: #808080;
+}
