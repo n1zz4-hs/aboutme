@@ -1,3 +1,7 @@
+$black: #363636
+$fwb: 900
+$grey: #808080
+
 header 
     background: url(../img/header-bg.svg) no-repeat center 76%, #fff
     height: 100vh
@@ -114,7 +118,196 @@ header
                 font-size: 12px
                 line-height: 1.78
                 color: #808080
+.people-say
+    padding-bottom: 100px
+    padding-top: 60px
+    text-align: center
+    .comments
+        display: flex
+        margin-left: 250px
+        margin-top: 60px
+        .comment
+            .comment-text
+                border: 1px solid #eee
+                color: $grey
+                font-size: 14px
+                font-style: italic
+                height: 130px
+                line-height: 1.5
+                padding: 15px
+                text-align: left
+                width: 290px
+                span
+                    color: #d90647
+                    display: block 
+                    font-style: normal
+                    letter-spacing: 1.1px
+            .triangle
+                border-left: 10px solid transparent
+                border-right: 10px solid transparent
+                border-top: 10px solid #eee
+                height: 0
+                margin-left: 20px
+                width: 0
+            .author
+                display: flex
+                margin-left: 5px
+                margin-top: 15px
+                img
+                    border-radius: 50%
+                    height: 50px
+                    width: 50px
+                .author-name
+                    color: $black
+                    font-size: 16px
+                    letter-spacing: 1.08
+                    margin-bottom: 5px
+                    margin-left: 20px
+                    margin-top: 7px
+                    text-align: left
+                .author-profession
+                    color: #667386
+                    font-size: 14px
+                    margin-left: 20px
+                    text-align: left
+        .comment1
+            margin-right: 20px
+            margin-top: 25px
+        .comment2
+            margin-right: 20px
+        .comment3
+            margin-top: 25px
+.actions
+    background: linear-gradient(to top, #eb402c, #d90647)
+    display: flex
+    height: 500px
+    overflow-x: visibile
+    width: 100%
+    .start-conv, .free-call
+        margin-left: 150px
+        text-align: right
+    .picture, .video 
+        margin-left: 570px
+    .start-conv, .picture
+        margin-top: 50px
+    .action
+        color: #fff
+        display: flex
+        width: 300px
+        h3
+            font-size: 22px
+            font-weight: $fwb
+            letter-spacing: 1.4px
+            margin-top: 50px
+        p
+            font-size: 14px
+            letter-spacing: 0.96px
+            line-height: 28px
+            margin-top: 10px
+            opacity: 0.6
+        object, .ic_phone
+            color-fill: #fff 
+            fill: #fff
+            height: 50px
+            margin-top: 50px
+            stroke: #fff
+            width: 50px
+        .left-icons
+            margin-left: 20px
+            margin-right: -50px
+        .right-icons
+            margin-left: -50px
+            margin-right: 20px
+    .iphone-video
+        height: 710px
+        left: 530px
+        top: 2530px
+        margin: 0 auto
+        width: auto
+        position: absolute
+        z-index: 1
+    .dark-bg
+        height: 501px
+        margin-top: 0
+        opacity: 0.6
+        position: absolute
+        left: 590px
+        width: auto
+        z-index: 2
+    .play-circle
+        cursor: pointer
+        height: 50px
+        position: absolute
+        right: 47.7%
+        top: 2830px
+        width: 50px
+        z-index: 3
 
+.subscribe
+    border-bottom: 1px solid #e0e0e0
+    padding-bottom: 100px
+    padding-top: 120px
+    text-align: center
+    .email
+        background-color: #f8f8f8
+        border-radius: 25px
+        border: 0
+        color: $grey
+        font-size: 18px
+        height: 40px
+        padding-left: 25px
+        width: 525px
+        z-index: 1
+    .sub-btn
+        background-image: linear-gradient(to top, #eb402c, #d90647)
+        border-radius: 25px
+        border: 0
+        box-shadow: 0px 10px 30px 0 rgba(223, 27, 61, 0.3)
+        color: #fff
+        font-size: 18px
+        font-weight: $fwb
+        height: 40px
+        margin-left: -160px
+        width: 160px
+        z-index: 2
+
+.text 
+    color: $grey
+    font-size: 16px
+    margin-bottom: 60px
+    margin-top: 40px
+
+.download
+    padding-bottom: 120px
+    padding-top: 80px
+    text-align: center
+    .app-icon
+        height: 160px    
+        margin-bottom: 30px
+        width: 160px
+    .app-store
+        height: 60px
+        margin-top: 20px
+        width: 180px
+
+.main-footer
+    border-top: 1px solid #e0e0e0
+    display: flex
+    padding: 30px 180px
+    ul
+        display: flex
+        margin-top: 5px
+        li
+            font-size: 15px
+            margin-right: 30px
+            text-transform: uppercase
+            a
+                color: $black
+                text-decoration: none
+    select
+        margin-left: 450px
+        width: 180px
+        
 
 
         
