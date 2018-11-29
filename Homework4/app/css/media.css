@@ -1,6 +1,9 @@
 @media (max-width: 575.98px) {
+  body {
+    max-width: 575.68px;
+  }
   header {
-    width: 100%;
+    width: 375px;
     height: 107vh;
   }
   header .menu-bar {
@@ -15,7 +18,7 @@
     display: block;
   }
   header .menu-bar .nav-bar li {
-    margin-top: 10px;
+    margin-top: 20px;
   }
   header .app-des {
     margin-left: 35px;
@@ -23,10 +26,14 @@
   }
   header .app-des .advert {
     margin-top: 50px;
+    margin-left: 100px;
+    width: 100%;
   }
   header .app-des .downloading {
-    width: 100px;
+    width: 200px;
     height: 50px;
+    margin-left: 60px;
+    margin-top: -50px;
   }
   header .app-img {
     float: 0;
@@ -35,11 +42,13 @@
     margin-right: 20px;
   }
   header .app-img .iPhone {
-    width: 187px;
-    height: 330px;
+    width: 0;
+    height: 0;
+    display: none;
   }
   .features {
     width: 100%;
+    height: 65vh;
   }
   .features .easy-messaging {
     margin: 0;
@@ -49,19 +58,21 @@
     width: 250px;
     height: 445px;
     margin-left: 30px;
+    display: none;
   }
   .features .easy-messaging .conversation {
     width: 250px;
     height: 445px;
     position: absolute;
-    top: 700px;
+    top: 750px;
+    display: none;
   }
   .features .easy-messaging .easy-mes-desc {
     width: 100%;
     margin-top: 0;
     position: absolute;
     left: -100px;
-    top: 1200px;
+    top: 750px;
   }
   .features .easy-messaging .easy-mes-desc h1 {
     text-align: center;
@@ -70,8 +81,22 @@
     padding: 20px 0 0 15px;
   }
   .features .keep-in-touch {
-    display: block;
-    margin: 0;
+    margin-top: 75px;
+    margin-left: 0;
+  }
+  .features .keep-in-touch .in-touch-desc {
     width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 1000px;
+  }
+  .features .keep-in-touch .in-touch-desc h1 {
+    text-align: center;
+  }
+  .features .keep-in-touch .in-touch-desc p {
+    padding: 20px 0 0 15px;
+  }
+  .features .contacts, .features .groups {
+    display: none;
   }
 }
