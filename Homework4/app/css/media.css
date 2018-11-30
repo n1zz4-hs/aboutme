@@ -99,4 +99,33 @@
   .features .contacts, .features .groups {
     display: none;
   }
+  .people-say .title {
+    text-align: center;
+    font-size: 40px;
+    color: #363636;
+  }
+  .people-say .title span {
+    color: red;
+  }
+  .people-say .comments {
+    margin: 0;
+    display: block;
+  }
+  .people-say .comments .comment1, .people-say .comments .comment2, .people-say .comments .comment3 {
+    margin: 0;
+  }
+  .people-say .comments .comment1, .people-say .comments .comment2, .people-say .comments .comment3 {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .people-say .comments .comment2 .triangle {
+    margin-left: 250px;
+  }
+  .people-say .comments .comment2 .author img {
+    position: absolute;
+    left: 275px;
+  }
+  .people-say .comments .comment2 .author div {
+    margin-left: 120px;
+  }
 }
